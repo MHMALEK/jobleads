@@ -5,20 +5,16 @@ jobleads front end task
 
 - GULP
 
-# How To start project
+## How To start project
 
-step 1: 
+**Step 1:** git clone this repo:
+**Step 2:** cd to the cloned repo:
+**Step 3:** Install the Application with `npm install`
+**Step 4:** Run Build
 
- npm install 
- 
-step 2: 
+* for development (with node server)
+  * run `npm start`
+* for static page (production)
+  * run `npm run build`
+  * NOTE: I had build project already and you can see final files in dist directory. just open index.html on dist directory to see final version.
 
-for start development server run this command:
-
-npm start
-
-for see production version just run:
-
-npm run build
-
-tip: I have build project already and you can see final files in dist directory. just open index.html on dist directory.
