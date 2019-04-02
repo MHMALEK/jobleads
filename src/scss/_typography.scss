@@ -1,0 +1,59 @@
+// addfont
+// I wanted to use google font for embed Fira Sans because of CDN benefits but I think it was a part of task to embed font so I just embed it here.
+
+@font-face {
+    font-family: 'Fira-sans-normal';
+    src:
+        url('../fonts/firaSans-webf/FiraSans-Regular.eot'),
+        url('../fonts/firaSans-webf/FiraSans-Regular.ttf') format('truetype'),
+        url('../fonts/firaSans-webf/FiraSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira-sans-bold';
+    src:
+        url('../fonts/firaSans-webf/FiraSans-Bold.eot'),
+        url('../fonts/firaSans-webf/FiraSans-Bold.ttf') format('truetype'),
+        url('../fonts/firaSans-webf/FiraSans-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Fira-sans-italic';
+    src:
+        url('../fonts/firaSans-webf/FiraSans-Italic.eot'),
+        url('../fonts/firaSans-webf/FiraSans-Italic.ttf') format('truetype'),
+        url('../fonts/firaSans-webf/FiraSans-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira-sans-light';
+    src:
+        url('../fonts/firaSans-webf/FiraSans-ExtraLight.ttf'),
+        url('../fonts/firaSans-webf/FiraSans-ExtraLight.ttf') format('truetype'),
+        url('../fonts/firaSans-webf/FiraSans-ExtraLight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font--fira-sans {
+    font-family: 'Fira-sans-normal', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fira-sans-bold', sans-serif;
+}
+
+p {
+    font-family: 'Fira-sans-light', sans-serif;
+}
+
+i {
+    font-family: 'Fira-sans-italic', sans-serif;
+}

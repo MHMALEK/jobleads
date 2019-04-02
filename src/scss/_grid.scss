@@ -1,0 +1,57 @@
+// large desktops - we dont need a specefic media query for large devices because we check small devices and it's enough for other devices//
+.container {
+    max-width: 1200px;
+    margin: 0 20px;
+    position: relative;
+}
+
+// medium desktops (laptops and etc)
+@media (min-width: 768px) and (max-width: 992px) {  
+     /* general rules */
+     .container {
+        max-width: 768px;
+        margin: 0;
+    }
+}
+
+// tablets and large mobiles (less than 425px)
+
+@media (max-width: 768px) {
+    /* general rules */
+    .container {
+        max-width: 768px;
+        margin: 0;
+    }
+}
+
+// large screen mobile devices
+
+@media (max-width: 425px) {
+
+    /* general rules */
+    .container {
+        max-width: 425px;
+        margin: 0;
+    }
+}
+
+//  medium screen mobile
+
+@media (max-width: 375px) {
+
+    /* general rules */
+    .container {
+        max-width: 375px;
+        margin: 0;
+    }
+}
+
+// small mobules (like iphone 4)
+@media (max-width: 320px) {
+
+    /* general rules */
+    .container {
+        max-width: 320px;
+        margin: 0;
+    }
+}
