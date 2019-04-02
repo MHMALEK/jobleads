@@ -1,5 +1,5 @@
-# jobleads
-jobleads front end task
+# Jobleads
+Jobleads front end task
 
 # Technologies that used:
 
